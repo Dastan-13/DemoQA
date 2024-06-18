@@ -1,7 +1,12 @@
 import org.testng.Assert;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
+
+@Listeners(com.demoqa.listener.ScreenshotListener.class)
+
 public class ButtonsTest extends BaseTest {
+
 
     @Test(description = "verify double click button is working propertly",priority = 2)
     public void doubleClickTest() throws InterruptedException {

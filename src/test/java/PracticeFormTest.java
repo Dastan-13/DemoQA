@@ -1,10 +1,12 @@
 import com.demoqa.entities.PracticeFormEntity;
 import com.demoqa.entities.TextBoxEntity;
 import com.demoqa.pages.PracticeFormPage;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import java.util.Random;
 
+@Listeners(com.demoqa.listener.ScreenshotListener.class)
 public class PracticeFormTest extends BaseTest{
     @Test
     public void practiceFormTest() throws InterruptedException {
