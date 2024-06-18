@@ -4,7 +4,9 @@ import com.demoqa.pages.*;
 import com.demoqa.utils.RandomUtils;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterClass;
+import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeSuite;
 
 public class BaseTest {
 
@@ -25,7 +27,7 @@ public class BaseTest {
      protected IframeHelper iframeHelper;
 
 
-    @BeforeClass(alwaysRun = true)
+    @BeforeSuite(alwaysRun = true)
     public void setUp() {
         driver = DriverManager.getDriver();
         randomUtils = new RandomUtils();
@@ -40,7 +42,7 @@ public class BaseTest {
 
     }
 
-    @AfterClass(alwaysRun = true)
+    @AfterSuite(alwaysRun = true)
     public void tearDown()  {
         DriverManager.closeDriver();
     }
