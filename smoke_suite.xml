@@ -9,6 +9,16 @@
     <class name="ButtonsTest"></class>
     <class name="FrameTest"></class>
     <class name="PracticeFormTest"></class>
+    <class name="ButtonsTest"></class>
+    <class name="CheckBoxTest"></class>
+    <class name="FrameTest"></class>
+    <class name="MenuTest"></class>
+    <class name="ProgressBarTest"></class>
+    <class name="SelectMenuTest"></class>
+    <class name="TextBoxTest"></class>
+    <class name="WebTablesTest"></class>
+    <class name="AlertTest"></class>
+
 </classes>
     </test>
 </suite>

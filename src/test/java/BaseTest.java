@@ -27,7 +27,7 @@ public class BaseTest {
      protected IframeHelper iframeHelper;
 
 
-    @BeforeSuite(alwaysRun = true)
+    @BeforeClass(alwaysRun = true)
     public void setUp() {
         driver = DriverManager.getDriver();
         randomUtils = new RandomUtils();
@@ -42,7 +42,7 @@ public class BaseTest {
 
     }
 
-    @AfterSuite(alwaysRun = true)
+    @AfterClass(alwaysRun = true)
     public void tearDown()  {
         DriverManager.closeDriver();
     }
