@@ -12,6 +12,7 @@ public class ButtonsTest extends BaseTest {
         browserHelper.open("https://demoqa.com/buttons");
         webElementActions.doubleClick(demoQAPages.getButtonsPage().doubleClickBtn);
         Assert.assertEquals(demoQAPages.getButtonsPage().doubleClickMessage.getText(), "You have done a double click");
+        System.out.println("Hello World");
         Thread.sleep(2000);
     }
 
@@ -20,6 +21,7 @@ public class ButtonsTest extends BaseTest {
         browserHelper.open("https://demoqa.com/buttons");
         webElementActions.rightClick(demoQAPages.getButtonsPage().rightClickBtn);
         Assert.assertEquals(demoQAPages.getButtonsPage().rightClickMessage.getText(), "You have done a right click");
+        System.out.println("Hello Fall 2024");
         Thread.sleep(2000);
 
     }
