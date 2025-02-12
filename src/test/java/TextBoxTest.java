@@ -1,6 +1,4 @@
 import com.demoqa.entities.TextBoxEntity;
-import com.demoqa.listener.ScreenshotListener;
-import org.testng.ITestListener;
 import org.testng.annotations.Test;
 
 public class TextBoxTest extends BaseTest {
