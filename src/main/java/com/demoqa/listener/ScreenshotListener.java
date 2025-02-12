@@ -55,8 +55,4 @@ public class ScreenshotListener implements ITestListener {
     public void onFinish(ITestContext context) {
         ITestListener.super.onFinish(context);
     }
-
-
-
-
 }
