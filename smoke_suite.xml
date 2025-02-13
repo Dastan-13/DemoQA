@@ -5,7 +5,7 @@
     <test verbose="2" preserve-order="true" name="C:/Users/user/IdeaProjects/DemoQAWinter24">
 <classes>
     <class name="ButtonsTest"></class>
-
+    <class name="CheckBoxTest"></class>
 </classes>
     </test>
 </suite>
