@@ -6,6 +6,7 @@
 <classes>
     <class name="ButtonsTest"></class>
     <class name="CheckBoxTest"></class>
+    <class name="PracticeFormTest"></class>
 </classes>
     </test>
 </suite>
