@@ -6,7 +6,14 @@
 <classes>
     <class name="ButtonsTest"></class>
     <class name="CheckBoxTest"></class>
-    <class name="PracticeFormTest"></class>
+    <class name="PracticeFormTest"></class>AlertTest
+    <class name="AlertTest"></class>
+    <class name="MenuTest"></class>
+    <class name="FrameTest"></class>
+    <class name="ProgressBarTest"></class>
+    <class name="SelectMenuTest"></class>
+    <class name="TextBoxTest"></class>
+    <class name="WebTablesTest"></class>
 </classes>
     </test>
 </suite>
